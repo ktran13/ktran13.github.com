@@ -1,0 +1,96 @@
+/* third-party icon fonts  */
+@import url('http://weloveiconfonts.com/api/?family=brandico');
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -o-transform: scale(1);
+  text-rendering: optimizeLegibility;
+  font-size: 15pt;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	background-image: url('../images/white-wood.jpg');
+	background-repeat: repeat;
+	background-color: rgb(0, 204, 157);
+	color: rgb(106, 127, 123);
+	font-size: 15pt;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+
+/* elements */
+h1 {
+	font-weight: 100;
+	color: rgb(106, 127, 123);
+	margin: 2px 0 0 0;
+}
+img {
+	width: 100px;
+	border-radius: 100px;
+	display: block;
+	margin: 0 auto;
+	opacity: 1.0;
+}
+img:hover {
+	opacity: 0.4;
+}
+div {
+	margin: auto;
+	/*width: 800px;*/
+	background-color: rgba(255,255,255,0.8);
+	/*border-radius: 25px;*/
+}
+ul {
+	padding: 10px;
+	margin: 0px 0 10px 0;
+	background-color: #fff;
+}
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+
+/* links */
+a:link, a:visited {
+	text-decoration: none;
+	color: rgb(0,6,14);
+}
+a:hover {
+	text-decoration: none;
+	background-color: rgba(191,201,199,0.4);
+	color: rgb(0, 204, 157);
+	padding: 5px;
+}
+a:active {
+	text-decoration: none;
+	color: #BFC9C7;
+}
+
+/* classes */
+.header-content {
+	text-align: center;
+	width: 100%;
+	height: 10%;
+	box-shadow: 0px 1px 50px #5e5e5e;
+	/*position: fixed;*/
+	top: 0px;
+}
+
+.main-content {
+	margin-top: 10%;
+}
+
+/* responsive */
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+}
