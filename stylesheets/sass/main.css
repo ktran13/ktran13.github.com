@@ -1,0 +1,47 @@
+/* imports */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/partials\/_resets\.scss}line{font-family:\000034}}
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* font variables */
+/* color variables */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000310}}
+body {
+  background-image: url("../../images/hot-balloon.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  font: 100% "Raleway", sans-serif;
+  color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000322}}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000327}}
+nav a {
+  display: block;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000331}}
+nav a:hover {
+  color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000336}}
+.header-content {
+  position: absolute;
+  z-index: 10;
+}
+
+/* reference to responsive bgs: http://sixrevisions.com/css/responsive-background-image/ */

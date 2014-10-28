@@ -1,0 +1,44 @@
+/* imports */
+@import '../partials/resets';
+
+/* font variables */
+$font-stack: 'Raleway', sans-serif;
+
+/* color variables */
+$white: #fff;
+
+/* reference to responsive bgs: http://sixrevisions.com/css/responsive-background-image/ */
+body {
+	background-image: url('../../images/hot-balloon.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	font: 100% $font-stack;
+	color: $white;
+}
+
+nav {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	a {
+		display: block;
+		text-decoration: none;
+	}
+	a:hover {
+		color: $white;
+	}
+}
+
+.header-content {
+	position: absolute;
+	z-index: 10;
+}
+
+.main {
+
+}
