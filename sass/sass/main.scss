@@ -1,42 +1,65 @@
 /* imports */
 @import '../partials/resets';
 
+/* third-party icon fonts  */
+@import url('http://weloveiconfonts.com/api/?family=brandico');
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -o-transform: scale(1);
+  text-rendering: optimizeLegibility;
+  font-size: 15pt;
+}
+
 /* font variables */
 $font-stack: 'Raleway', sans-serif;
 
 /* color variables */
 $white: #fff;
+$gray: #413D3D;
+$black: rgb(0,6,14);
+$teal: rgb(0, 204, 157);
 
 /* reference to responsive bgs: http://sixrevisions.com/css/responsive-background-image/ */
 body {
-	background-image: url('../../images/hot-balloon.jpg');
+	/*background-image: url('../../images/hot-balloon.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
 	height: 100%;
 	font: 100% $font-stack;
-	color: $white;
+	color: $gray;
 }
 
-nav {
-	ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-	}
-	a {
-		display: block;
-		text-decoration: none;
-	}
-	a:hover {
-		color: $white;
-	}
+/* general styles */
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+li {
+	display: inline-block;
+}
+a:link, a:visited {
+	display: block;
+	text-decoration: none;
+	color: $gray;
+}
+a:hover {
+	color: $teal;
+}
+
+/* helpers */
+.ui-hidden {
+	display: none;
 }
 
 .header-content {
-	position: absolute;
-	z-index: 10;
+/*	position: absolute;
+	z-index: 10;*/
+	padding: 50px;
 }
 
 .main {

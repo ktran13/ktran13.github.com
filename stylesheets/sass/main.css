@@ -1,4 +1,5 @@
 /* imports */
+@import url("http://weloveiconfonts.com/api/?family=brandico");
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/partials\/_resets\.scss}line{font-family:\000034}}
 html,
 body,
@@ -8,40 +9,66 @@ ol {
   padding: 0;
 }
 
+/* third-party icon fonts  */
+/* brandico */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\000037}}
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -o-transform: scale(1);
+  text-rendering: optimizeLegibility;
+  font-size: 15pt;
+}
+
 /* font variables */
 /* color variables */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000310}}
+/* reference to responsive bgs: http://sixrevisions.com/css/responsive-background-image/ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000325}}
 body {
-  background-image: url("../../images/hot-balloon.jpg");
+  /*background-image: url('../../images/hot-balloon.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
   height: 100%;
   font: 100% "Raleway", sans-serif;
-  color: white;
+  color: #413d3d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000322}}
-nav ul {
+/* general styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000337}}
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000327}}
-nav a {
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000342}}
+li {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000345}}
+a:link, a:visited {
   display: block;
   text-decoration: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000331}}
-nav a:hover {
-  color: white;
+  color: #413d3d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000350}}
+a:hover {
+  color: #00cc9d;
+}
+
+/* helpers */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000355}}
+.ui-hidden {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000359}}
 .header-content {
-  position: absolute;
-  z-index: 10;
+  /*	position: absolute;
+  	z-index: 10;*/
+  padding: 50px;
 }
-
-/* reference to responsive bgs: http://sixrevisions.com/css/responsive-background-image/ */
