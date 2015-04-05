@@ -100,10 +100,4 @@ a:active {
     font-size: 36px;
     padding: 5px;
   }
-
-  /* line 81, ../../sass/sass/main.scss */
-  li {
-    padding: 5px;
-    display: block;
-  }
 }
