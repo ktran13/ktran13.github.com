@@ -1,7 +1,7 @@
 /* third-party icon fonts  */
 @import url("http://weloveiconfonts.com/api/?family=brandico");
 /* brandico */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\000034}}
+/* line 4, ../../sass/sass/main.scss */
 [class*="brandico-"]:before {
   font-family: 'brandico', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,7 +10,7 @@
   font-size: 15pt;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000312}}
+/* line 12, ../../sass/sass/main.scss */
 body {
   font-family: 'Helvetica Neue';
   margin-left: 20px;
@@ -18,14 +18,14 @@ body {
 }
 
 /* elements */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000319}}
+/* line 19, ../../sass/sass/main.scss */
 h1 {
   font-weight: 100;
   color: #31b7de;
   margin: 2px 0 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000324}}
+/* line 24, ../../sass/sass/main.scss */
 h3 {
   letter-spacing: 2px;
   font-weight: 100;
@@ -33,7 +33,7 @@ h3 {
   color: #31b7de;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000330}}
+/* line 30, ../../sass/sass/main.scss */
 img {
   width: 100px;
   border-radius: 100px;
@@ -42,52 +42,52 @@ img {
   opacity: 1.0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000337}}
+/* line 37, ../../sass/sass/main.scss */
 p {
   font-size: 80%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000340}}
+/* line 40, ../../sass/sass/main.scss */
 img:hover {
   opacity: 0.4;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000343}}
+/* line 43, ../../sass/sass/main.scss */
 ul {
   padding: 10px;
   margin: 0px 0 10px 0;
   background-color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000348}}
+/* line 48, ../../sass/sass/main.scss */
 li {
   display: inline;
   padding: 0px 10px 0px 10px;
 }
 
 /* links */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000354}}
+/* line 54, ../../sass/sass/main.scss */
 a:link, a:visited {
   text-decoration: none;
   color: #31b7de;
   padding: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000359}}
+/* line 59, ../../sass/sass/main.scss */
 a:hover {
   text-decoration: none;
   background-color: rgba(191, 201, 199, 0.4);
   padding: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000364}}
+/* line 64, ../../sass/sass/main.scss */
 a:active {
   text-decoration: none;
   color: #BFC9C7;
 }
 
 /* classes */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000370}}
+/* line 70, ../../sass/sass/main.scss */
 .header-content {
   width: 100%;
   height: 10%;
@@ -95,13 +95,13 @@ a:active {
 
 /* responsive */
 @media (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000377}}
+  /* line 77, ../../sass/sass/main.scss */
   h1 {
     font-size: 36px;
     padding: 5px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/kristiantran\/Development\/personal\/ktran13\.github\.com\/sass\/sass\/main\.scss}line{font-family:\0000381}}
+  /* line 81, ../../sass/sass/main.scss */
   li {
     padding: 5px;
     display: block;
